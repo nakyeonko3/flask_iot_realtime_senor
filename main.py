@@ -1,9 +1,7 @@
 from flask import Flask, render_template, jsonify
-from flask_socketio import send, emit, SocketIO
 import random
 
 app = Flask(__name__)
-socketio = SocketIO(app)
 
 name = "nakyeonko"
 
